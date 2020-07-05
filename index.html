@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Anatole Shukla</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans|Alegreya+Sans+SC:400,500,700,800" rel="stylesheet">
+  <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+</head>
+<body>
+  <div class="sidebar">
+    <div id="list-container">
+      <div id="list-title"> Links </div>
+      <div class="separator-side"></div>
+      <div id='list'>
+        <div class="list-item">
+          <a href ="https://www.linkedin.com/in/ash-s-000501146/">
+            LinkedIn
+          </a>
+        </div>
+        <div class="list-item">
+          <button class="dropdown-btn">Writing +
+          </button>
+          <div class="dropdown-container">
+            <div class="separator-drop"></div>
+            <a href="portfolios/news-portfolio.html">News Reporting</a>
+            <a href="portfolios/arts-portfolio.html">Arts Reporting</a>
+            <div class="separator-drop"></div>
+          </div>
+        </div>
+        </div>
+        <div class="list-item">
+          <a href="mailto:ashukla1@swarthmore.edu?Subject=Hello!" target="_top">
+            Email
+          </a>
+        </div>
+        <div id="credit"><a id="credit" href="https://twitter.com/sannidhishukla">Site by Sannidhi Shukla</a></div>
+      </div>
+    </div>
+  </div>
+  <div id="content" class="panel">
+		<div class="container">
+			<div class="image"> <img src="assets/img/me.jpeg" alt="a photo of me :--)"/></div>
+			<div id="title">Anatole Shukla</div>
+			<div class="separator"></div>
+			<div class="menu">
+				<div class="item" id="about">About</div>
+				<div id="text">
+          I'm a student at Swarthmore College with one major in economics and
+          another in linguistics & Russian language.
+          <br/><br/>
+          I currently serve as <b>Managing Editor of The Phoenix</b>, Swarthmore's
+          only independent student-run newspaper. I'm especially interested in
+          reporting on the perspectives of <b>students with marginalized
+          identities</b>, and writing <b> theater reviews and personal
+          essays </b>.
+          <br/><br/>
+          Outside of school and journalism, I love birdwatching, reading about
+          Napoleonic era history, and sewing. My favorite North American bird
+          is probably the northern <b> saw-whet owl</b>, though I also love
+          great egrets.
+          <br/><br/>
+          If you'd like to get in touch, you can also use the links to the left.
+          You can also look around to see my writing and learn more about me!
+        </div>
+			</div>
+    </div>
+  </div>
+  <script>
+    var dropdown = document.getElementsByClassName("dropdown-btn");
+    var i;
+
+    for (i = 0; i < dropdown.length; i++) {
+      dropdown[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var dropdownContent = this.nextElementSibling;
+        if (dropdownContent.style.display === "block") {
+          dropdownContent.style.display = "none";
+        } else {
+          dropdownContent.style.display = "block";
+        }
+      });
+    }
+  </script>
+</body>
+</html>

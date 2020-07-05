@@ -1,0 +1,157 @@
+/* HOME */
+/* HOME */
+/* HOME */
+/* HOME */
+/* HOME */
+
+body {
+	color: #333;
+	font-family: 'Alegreya Sans SC', sans-serif;
+	margin: 0;
+	padding: 0;
+  background-color: #C6DEFF;
+}
+
+/* SIDEBAR */
+
+#list-container {
+
+  height: 100%;
+  width: 60%;
+	position: fixed;
+	background-size: cover;
+  background-color: white;
+  opacity: 0.6;
+}
+#list-title {
+  color: black;
+  padding: 40px 0 10px 0;
+  font-size: 30px;
+  letter-spacing: 5px;
+  text-transform: lowercase;
+  border-color: #8E0047;
+  transition: 1s;
+  text-align:center;
+  opacity: 1;
+}
+.separator-side {
+	height: 1px;
+	margin: auto;
+	width: 50%;
+	background-color: black;
+  margin-bottom: 30px;
+}
+.list-item {
+  border-color: #8E0047;
+  padding: 10px 0px 10px 0px;
+  margin-top:2px;
+  transition: 1s;
+  text-align:center;
+  color: black;
+  opacity: 70%;
+}
+.list-item:hover {
+  color: #8E0047;
+  transition-duration: 1s;
+}
+
+/* ABOUT */
+
+.container {
+	margin: 15px auto 0 auto;
+  width: 60%;
+  background-color: rgba(255,255,255,0.6);
+  padding-top: 10px;
+}
+#title {
+	font-size: 30px;
+	letter-spacing: 5px;
+	text-align: center;
+	text-transform: lowercase;
+	color: #666;
+  font-weight: 700;
+}
+
+/*PORTFOLIO*/
+/*PORTFOLIO*/
+/*PORTFOLIO*/
+/*PORTFOLIO*/
+/*PORTFOLIO*/
+
+.title {
+	font-family: 'Alegreya Sans SC', sans-serif;
+  padding: 0px 20px 0px 20px;
+  max-width: 800px;
+  line-height: 30px;
+  font-size: 19px;
+  text-align: center;
+  background-color: rgba(255,255,255,0.6);
+  margin-top: 20px;
+}
+.blurb {
+  font-family: 'Alegreya Sans', sans-serif;
+  padding: 10px 70px 10px 70px;
+  max-width: 700px;
+  line-height: 20px;
+  font-size: 15px;
+  text-align: justify;
+  background-color: rgba(255,255,255,0.6);
+}
+#me {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  margin-top:20px;
+  font-size: 62px;
+  width: 100%;
+  text-align:center;
+  letter-spacing: 4.05px;
+  text-transform:lowercase;
+  transition: 0.5s;
+}
+#home {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  margin-top:0px;
+  font-size: 19px;
+  text-align:center;
+  letter-spacing: 4.05px;
+  text-transform:lowercase;
+  margin-bottom: 10px;
+  transition: 0.5s;
+}
+
+#home:hover {
+  color: white;
+  transition: 0.5s;
+}
+body {
+  background-image:url('img/img1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*LINKS*/
+a:link {
+  text-decoration: none;
+  color: pink;
+  transition: .5s;
+  font-weight: bold;
+  color: 	#466C84;
+}
+
+a:hover {
+  color: #33A1C9;
+}
+
+a:visited {
+  color: 	#466C84;
+  transition: .5s;
+}
+
+a:active {
+  color: white;
+}
+
+a:visited:hover {
+  letter-spacing: 0.7px;
+  transition: .5s;
+  color: #33A1C9;
+}
